@@ -20,9 +20,4 @@ function appendKitten(name) {
   newArray.push(name);
   return newArray;
 }
-/*
-function appendKitten(name){
-  var newArray = [...kittens]
-  newArray.push(name)
-  return newArray
-}*/
+
