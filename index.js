@@ -26,3 +26,8 @@ var  newArray = [...kittens];
   newArray.unshift(name);
   return newArray;
 }
+function removeLastKitten(name) {
+  var newArray = [...kittens];
+  newArray.pop(name);
+  return (newArray);
+}
